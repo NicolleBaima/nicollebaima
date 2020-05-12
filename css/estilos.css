@@ -1,0 +1,40 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1538947117537-48239ec91f18?ixlib=rb-1.2.1&w=1000&q=80');
+    background-size: auto 150vh;
+    font-family: sans-serif;
+    height: 100vh;
+  }
+  
+  .menu {
+    background-color: pink;
+  }
+  
+  a {
+    text-decoration: none;
+    color: purple;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu li {
+    list-style: none;
+  }
+  
+  .site-subtitle,
+  
+  .site-title {
+    text-align: center;
+    color: purple;
+  }
+  
+  .site-subtitle {
+    font-style: italic;
+  }
+  
